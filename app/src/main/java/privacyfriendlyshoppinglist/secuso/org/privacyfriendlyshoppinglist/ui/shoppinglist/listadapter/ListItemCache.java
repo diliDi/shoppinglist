@@ -1,14 +1,10 @@
 package privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.ui.shoppinglist.listadapter;
 
-import android.content.SharedPreferences;
-import android.preference.PreferenceManager;
 import android.support.v7.widget.CardView;
 import android.view.View;
 import android.widget.ImageButton;
-import android.widget.ImageView;
 import android.widget.TextView;
 import privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.R;
-
 
 public class ListItemCache
 {
@@ -28,10 +24,7 @@ public class ListItemCache
         listCard = (CardView) parent.findViewById(R.id.cardview_item);
         showDetailsImageButton = (ImageButton) parent.findViewById(R.id.expand_button_list);
         detailsVisible = false;
-
-        SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(parent.getContext());
-        String defaultCurrency = parent.getResources().getString(R.string.currency);
-        currency = defaultCurrency;
+        currency = "$";
     }
 
     public TextView getListNameTextView()

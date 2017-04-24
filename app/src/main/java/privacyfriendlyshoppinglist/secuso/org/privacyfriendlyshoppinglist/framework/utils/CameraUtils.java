@@ -12,11 +12,6 @@ import java.io.FileOutputStream;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Description:
- * Author: Grebiel Jose Ifill Brito
- * Created: 17.08.16 creation date
- */
 public abstract class CameraUtils
 {
     private static List<String> imagesBeingSaved = new ArrayList<>();

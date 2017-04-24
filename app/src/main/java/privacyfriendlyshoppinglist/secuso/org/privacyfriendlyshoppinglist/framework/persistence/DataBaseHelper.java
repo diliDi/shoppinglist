@@ -7,7 +7,6 @@ import com.j256.ormlite.android.apptools.OrmLiteSqliteOpenHelper;
 import com.j256.ormlite.support.ConnectionSource;
 import com.j256.ormlite.table.TableUtils;
 import privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.R;
-import privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.framework.logger.PFALogger;
 import privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.logic.product.persistence.entity.ProductItemEntity;
 import privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.logic.shoppingList.persistence.entity.ShoppingListEntity;
 
@@ -17,10 +16,6 @@ import java.util.List;
 
 class DataBaseHelper extends OrmLiteSqliteOpenHelper
 {
-    private static final String ON_CREATE = "onCreate";
-    private static final String START = "start";
-    private static final String ON_UPGRADE = "onUpgrade";
-    private static final String ORMLITE_CONFIG_TXT = "ormlite_config.txt";
     private static List<Class<? extends AbstractEntity>> entityClasses;
 
     DataBaseHelper(Context context, DB db)
@@ -41,7 +36,6 @@ class DataBaseHelper extends OrmLiteSqliteOpenHelper
         try
         {
             setupClasses();
-            PFALogger.debug(getClass().getName(), ON_CREATE, START);
             for ( Class aClass : entityClasses )
             {
                 TableUtils.createTable(connectionSource, aClass);
@@ -49,7 +43,6 @@ class DataBaseHelper extends OrmLiteSqliteOpenHelper
         }
         catch ( Exception e )
         {
-            PFALogger.error(getClass().getName(), ON_CREATE, e);
         }
     }
 
@@ -67,7 +60,6 @@ class DataBaseHelper extends OrmLiteSqliteOpenHelper
         }
         catch ( SQLException e )
         {
-            PFALogger.error(getClass().getName(), ON_UPGRADE, e);
         }
     }
 
@@ -75,7 +67,7 @@ class DataBaseHelper extends OrmLiteSqliteOpenHelper
     {
         public static void main(String[] args) throws Exception
         {
-            writeConfigFile(ORMLITE_CONFIG_TXT);
+            writeConfigFile("ormlite_config.txt");
         }
     }
 }

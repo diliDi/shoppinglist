@@ -1,17 +1,13 @@
 package privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.ui.shoppinglist.listadapter;
 
 import android.content.Intent;
-import android.preference.PreferenceManager;
 import android.support.v4.app.DialogFragment;
-import android.support.v4.content.ContextCompat;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageButton;
 import privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.R;
 import privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.framework.context.AbstractInstanceFactory;
 import privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.framework.context.InstanceFactory;
 import privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.framework.ui.AbstractViewHolder;
-import privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.framework.utils.StringUtils;
 import privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.logic.product.business.ProductService;
 import privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.logic.product.business.domain.ProductItem;
 import privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.logic.product.business.domain.TotalItem;
@@ -20,18 +16,13 @@ import privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.logic.
 import privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.ui.main.MainActivity;
 import privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.ui.main.ShoppingListActivityCache;
 import privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.ui.products.ProductsActivity;
-//import privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.ui.settings.SettingsKeys;
 import privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.ui.shoppinglist.EditDeleteListDialog;
 
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by Chris on 05.06.2016.
- */
 class ListsItemViewHolder extends AbstractViewHolder<ListItem, ShoppingListActivityCache>
 {
-    private static final String HIGH_PRIORITY_INDEX = "0";
     private ListItemCache listItemCache;
     private ProductService productService;
     private ShoppingListService shoppingListService;
@@ -48,7 +39,6 @@ class ListsItemViewHolder extends AbstractViewHolder<ListItem, ShoppingListActiv
     public void processItem(ListItem item)
     {
         listItemCache.getListNameTextView().setText(item.getListName());
-//        listItemCache.getDeadLineTextView().setText(item.getDeadlineDate());
 
         List<ProductItem> productItems = new ArrayList<>();
         productService.getAllProducts(item.getId())
@@ -56,13 +46,9 @@ class ListsItemViewHolder extends AbstractViewHolder<ListItem, ShoppingListActiv
                 .doOnNext(productItem -> productItems.add(productItem))
                 .doOnCompleted(() ->
                 {
-//                    int reminderStatus = shoppingListService.getReminderStatusResource(item, productItems);
-//                    listItemCache.getReminderBar().setImageResource(reminderStatus);
                 })
                 .subscribe();
 
-//        setupPriorityIcon(item);
-//        setupReminderIcon(item);
 
         final TotalItem[] totalItem = new TotalItem[ 1 ];
         productService.getInfo(item.getId())
@@ -111,39 +97,4 @@ class ListsItemViewHolder extends AbstractViewHolder<ListItem, ShoppingListActiv
         });
 
     }
-
-//    private void setupReminderIcon(ListItem item)
-//    {
-//        if ( StringUtils.isEmpty(item.getReminderCount()) )
-//        {
-//            listItemCache.getReminderImageView().setVisibility(View.GONE);
-//        }
-//        else
-//        {
-//            listItemCache.getReminderImageView().setVisibility(View.VISIBLE);
-//            AppCompatActivity activity = cache.getActivity();
-//            if ( !PreferenceManager.getDefaultSharedPreferences(activity).getBoolean(SettingsKeys.NOTIFICATIONS_ENABLED, true) )
-//            {
-//                listItemCache.getReminderImageView().setColorFilter(ContextCompat.getColor(activity, R.color.red));
-//            }
-//            else
-//            {
-//                listItemCache.getReminderImageView().setColorFilter(ContextCompat.getColor(activity, R.color.middlegrey));
-//            }
-//        }
-//    }
-//
-//    private void setupPriorityIcon(ListItem item)
-//    {
-//        if ( HIGH_PRIORITY_INDEX.equals(item.getPriority()) )
-//        {
-//            listItemCache.getHighPriorityImageView().setVisibility(View.VISIBLE);
-//        }
-//        else
-//        {
-//            listItemCache.getHighPriorityImageView().setVisibility(View.GONE);
-//        }
-//    }
-
-
 }

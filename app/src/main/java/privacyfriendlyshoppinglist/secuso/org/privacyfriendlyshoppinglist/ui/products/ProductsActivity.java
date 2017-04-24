@@ -91,12 +91,9 @@ public class ProductsActivity extends AppCompatActivity
         MenuItem searchItem = menu.findItem(R.id.imageview_search);
         searchItem.setOnMenuItemClickListener(new ShowSearchFieldOnClickListener(this));
 
-        MenuItem sortItem = menu.findItem(R.id.imageview_sort);
-
         MenuItem deleteItem = menu.findItem(R.id.imageview_delete);
         deleteItem.setOnMenuItemClickListener(new ShowDeleteProductsOnClickListener(this, listId));
 
-        sortItem.setVisible(menusVisible);
         deleteItem.setVisible(menusVisible);
         return super.onPrepareOptionsMenu(menu);
     }

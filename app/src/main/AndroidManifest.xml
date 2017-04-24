@@ -131,16 +131,6 @@
                     <!--android:name="android.support.PARENT_ACTIVITY"-->
                     <!--android:value=".ui.main.MainActivity"/>-->
         <!--</activity>-->
-        <activity
-                android:name=".ui.settings.SettingsActivity"
-                android:label="@string/title_activity_settings"
-                android:parentActivityName=".ui.main.MainActivity"
-                android:configChanges="orientation|screenSize"
-                android:theme="@style/AppTheme.NoActionBar">
-            <meta-data
-                    android:name="android.support.PARENT_ACTIVITY"
-                    android:value=".ui.main.MainActivity"/>
-        </activity>
     </application>
 
 </manifest>

@@ -18,15 +18,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
 import privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.R;
-//import privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.ui.about.AboutActivity;
-//import privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.ui.help.HelpActivity;
-import privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.ui.main.MainActivity;
-//import privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.ui.settings.SettingsActivity;
-//import privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.ui.statistics.StatisticsActivity;
 
-/**
- * Created by Chris on 04.07.2016.
- */
 public class BaseActivity extends AppCompatActivity implements OnNavigationItemSelectedListener
 {
 
@@ -77,10 +69,10 @@ public class BaseActivity extends AppCompatActivity implements OnNavigationItemS
 //        }
 //    }
 
-    protected int getNavigationDrawerID()
-    {
-        return 0;
-    }
+//    protected int getNavigationDrawerID()
+//    {
+//        return 0;
+//    }
 
     //    @Override
     public boolean onNavigationItemSelected(MenuItem item)
@@ -124,14 +116,6 @@ public class BaseActivity extends AppCompatActivity implements OnNavigationItemS
 //    }
 
     // set active navigation item
-    private void selectNavigationItem(int itemId)
-    {
-        for ( int i = 0; i < mNavigationView.getMenu().size(); i++ )
-        {
-            boolean b = itemId == mNavigationView.getMenu().getItem(i).getItemId();
-            mNavigationView.getMenu().getItem(i).setChecked(b);
-        }
-    }
 
     /**
      * Enables back navigation for activities that are launched from the NavBar. See
@@ -197,14 +181,14 @@ public class BaseActivity extends AppCompatActivity implements OnNavigationItemS
         mNavigationView = (NavigationView) findViewById(R.id.nav_view);
         mNavigationView.setNavigationItemSelectedListener(this);
 
-        selectNavigationItem(getNavigationDrawerID());
+//        selectNavigationItem(getNavigationDrawerID());
 
-        View mainContent = findViewById(R.id.main_content);
-        if ( mainContent != null )
-        {
-            mainContent.setAlpha(0);
-            mainContent.animate().alpha(1).setDuration(MAIN_CONTENT_FADEIN_DURATION);
-        }
+//        View mainContent = findViewById(R.id.main_content);
+//        if ( mainContent != null )
+//        {
+//            mainContent.setAlpha(0);
+//            mainContent.animate().alpha(1).setDuration(MAIN_CONTENT_FADEIN_DURATION);
+//        }
     }
 
 

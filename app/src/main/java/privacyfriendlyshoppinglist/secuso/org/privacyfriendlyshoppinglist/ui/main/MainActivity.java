@@ -63,11 +63,11 @@ public class MainActivity extends BaseActivity
         return super.onPrepareOptionsMenu(menu);
     }
 
-    @Override
-    protected int getNavigationDrawerID()
-    {
-        return R.id.nav_main;
-    }
+//    @Override
+//    protected int getNavigationDrawerID()
+//    {
+//        return R.id.nav_main;
+//    }
 
     public void updateListView()
     {

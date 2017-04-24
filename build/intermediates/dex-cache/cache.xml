@@ -3,975 +3,255 @@
 
     <item
         is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 5.0/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 5.0/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.0.1_e2c84561fa90e9a0f83ad79ef31cecbdd664670e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.1.5/ece7b5d0870e66d8226dab6dcf47a2b12afff061/rxjava-1.1.5.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ece7b5d0870e66d8226dab6dcf47a2b12afff061">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 2.0/app/build/intermediates/pre-dexed/debug/rxjava-1.1.5_4a4799bbeba473bd335eea55011fe4a11b91722e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 6.0/app/build/intermediates/exploded-aar/com.android.support/transition/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c1b6ab157e8e12cb08b9ee82bb5e3c5d22632eb3">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 6.0/app/build/intermediates/pre-dexed/debug/com.android.support-transition-25.0.1_4b6671620dbfa6980e0b5050147990544558be47.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 6.0/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 6.0/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.0.1_4e843ab6d0aff3dfb8a8ba199c53d1cb69a1dc5b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 2.0/app/build/intermediates/exploded-aar/io.reactivex/rxandroid/1.2.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="927e8ef5711b115b65b2f35495d77352be2b3c09">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 2.0/app/build/intermediates/pre-dexed/debug/io.reactivex-rxandroid-1.2.0_812cb214171af2686f1a5a56d256a6aae75b120d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/.gradle/caches/modules-2/files-2.1/com.squareup.dagger/dagger/1.2.5/965d3e29792e7c4193a2906ccadd5ec2fbb6d441/dagger-1.2.5.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="965d3e29792e7c4193a2906ccadd5ec2fbb6d441">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 2.0/app/build/intermediates/pre-dexed/debug/dagger-1.2.5_6b15cfa2c34592d95277a726926bb768c74f57f8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.1/support-annotations-25.0.1.jar"
+        jar="/Users/yuanding/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.1/support-annotations-25.0.1.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 2.0/app/build/intermediates/pre-dexed/debug/support-annotations-25.0.1_363a53a500ecf9be81a6d0bc189a19aedd73534f.jar" />
+        <dex dex="/Users/yuanding/Documents/workspace/CMU-Spring2017/08781/shoppinglist/app/build/intermediates/pre-dexed/debug/support-annotations-25.0.1_7f9c0da9409aea4c1297539be16953929a2100e8.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 6.0/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 6.0/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.0.1_a5ada21c2b902d39b9ee8f2bb7f4236574d60355.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 5.0/app/build/intermediates/exploded-aar/com.android.support/design/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="3b236883e0df6002cabb01ce57d00a5b1e5de610">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 5.0/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.0.1_f7e93090ed0c3ebc34fafc9bd492e11e24b68305.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 6.0/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 6.0/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.0.1_2d74716e42a1184376e997e493ea38f11b7134e5.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version1.0/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version1.0/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.0.1_83a1a4dcbb39897fe165f7af4c999dcfbd53fbc3.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 6.0/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 6.0/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.0.1_1fe754c0c22ce37f5df0f2d697e3440a15f28a1c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 5.0/app/build/intermediates/exploded-aar/com.android.support/transition/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c1b6ab157e8e12cb08b9ee82bb5e3c5d22632eb3">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 5.0/app/build/intermediates/pre-dexed/debug/com.android.support-transition-25.0.1_4ed310091ca4d790435e96c9e8ec58ae44bc96ab.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version1.0/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version1.0/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.0.1_c798b62d0081ecfc73f3b030f326a75f07c33030.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 5.0/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 5.0/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.0.1_e4f9fa88a85ef7bd86c4acf4bc9b37b8d22b4b86.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/.gradle/caches/modules-2/files-2.1/com.j256.ormlite/ormlite-core/4.46/6751df56389e007307f6c68d87811d3bb151a112/ormlite-core-4.46.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6751df56389e007307f6c68d87811d3bb151a112">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 2.0/app/build/intermediates/pre-dexed/debug/ormlite-core-4.46_5a91457c843eadf53e56193ab8f044cba1e3fcf3.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 3.0/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 3.0/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.0.1_e7f8c3fe683f94fc0228aed9957df3959dc7ff71.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 3.0/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 3.0/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.0.1_e8c00e114f8f5c40c2c2ba2871918e3f4b705465.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 6.0/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 6.0/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.0.1_6d68713b70477b211274f4dc7d36466b449a8b37.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 3.0/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.0.1/jars/classes.jar"
+        jar="/Users/yuanding/Documents/workspace/CMU-Spring2017/08781/shoppinglist/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="1108575c7dc7b7f5b378b3290ac90de81a9b8830">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 3.0/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-25.0.1_fa886365ef6be08be95b90926e47a8b621b71ec9.jar" />
+        <dex dex="/Users/yuanding/Documents/workspace/CMU-Spring2017/08781/shoppinglist/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-25.0.1_6bca85b7502722095b8bb202d18b853091a805e3.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 6.0/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 6.0/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_662569d27986cc11bc0492ab436720b3469c6ef0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 2.0/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar"
+        jar="/Users/yuanding/Documents/workspace/CMU-Spring2017/08781/shoppinglist/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 2.0/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.0.1_bec68e62dbb1c590246848c282603e3edb8158f3.jar" />
+        <dex dex="/Users/yuanding/Documents/workspace/CMU-Spring2017/08781/shoppinglist/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.0.1_0b58620a9c66eff287e186490db555c2727cc041.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 3.0/app/build/intermediates/exploded-aar/com.android.support/transition/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c1b6ab157e8e12cb08b9ee82bb5e3c5d22632eb3">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 3.0/app/build/intermediates/pre-dexed/debug/com.android.support-transition-25.0.1_31ff2128e588b0fd22bbad4fa585f67564ce40fd.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version1.0/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jar="/Users/yuanding/Documents/workspace/CMU-Spring2017/08781/shoppinglist/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/libs/internal_impl-25.0.1.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version1.0/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_7d63bb95ed0ed356601c81cbd1203f5e4af3b253.jar" />
+        <dex dex="/Users/yuanding/Documents/workspace/CMU-Spring2017/08781/shoppinglist/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_977abd748a670e47e7db4f3eaa6caa6563cdc2c7.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 2.0/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jar="/Users/yuanding/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.1.5/ece7b5d0870e66d8226dab6dcf47a2b12afff061/rxjava-1.1.5.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 2.0/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_49b72c55b2ecdf1843ee3acc03349b9f09176a5d.jar" />
+        sha1="ece7b5d0870e66d8226dab6dcf47a2b12afff061">
+        <dex dex="/Users/yuanding/Documents/workspace/CMU-Spring2017/08781/shoppinglist/app/build/intermediates/pre-dexed/debug/rxjava-1.1.5_15e9faf4b7a81767494b7ce98985f54661acd691.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 6.0/app/build/intermediates/exploded-aar/com.android.support/design/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="3b236883e0df6002cabb01ce57d00a5b1e5de610">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 6.0/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.0.1_1ff96d82cb0c6f056b959b7b0ba0f1378293d693.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 6.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 6.0/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.0.1_fbc64cc83d2e81928df3c034a31f5e419483b56e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 5.0/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 5.0/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.0.1_3608b3c1f16feece338ec0e00bf0e2c5de22000a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 6.0/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 6.0/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.0.1_8733440924aa99f2ed1a82709190be32b18c8e78.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version1.0/app/build/intermediates/exploded-aar/io.reactivex/rxandroid/1.2.0/jars/classes.jar"
+        jar="/Users/yuanding/Documents/workspace/CMU-Spring2017/08781/shoppinglist/app/build/intermediates/exploded-aar/io.reactivex/rxandroid/1.2.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="927e8ef5711b115b65b2f35495d77352be2b3c09">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version1.0/app/build/intermediates/pre-dexed/debug/io.reactivex-rxandroid-1.2.0_fb36f9e465313199620add6727569195edb4c545.jar" />
+        <dex dex="/Users/yuanding/Documents/workspace/CMU-Spring2017/08781/shoppinglist/app/build/intermediates/pre-dexed/debug/io.reactivex-rxandroid-1.2.0_a2a78893a2bdf28afb55a061817aaca90a07cdcc.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version1.0/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version1.0/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.0.1_57e2f9c45c7771c6adadb6e0f7b3f359787f8753.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 5.0/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 5.0/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.0.1_c6b06bc6ffa60210eaf376e9461706876b26f07e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 5.0/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 5.0/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_e0e58f86c888d558ded3b17ce5863e8f7bbeceb8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 6.0/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 6.0/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.0.1_c1842ad5f6febcc8bd8000105bdf87e15bf07438.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 3.0/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 3.0/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.0.1_8c4d8d1f1bfd38c72c4f2916334931228155d2eb.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 2.0/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 2.0/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.0.1_267e7b0e12338ad6e15519dfce03ce756b4953f7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 5.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 5.0/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.0.1_c903a25987ccf28fb7f1d827ca44d46ef9308b8a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 5.0/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 5.0/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.0.1_5f4166d8cf49c466447b2d6c8d7b72734c144aad.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 2.0/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 2.0/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_ab5ede8ceb70788ff85a5a5a291ed2f99a9e46cc.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 2.0/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="1108575c7dc7b7f5b378b3290ac90de81a9b8830">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 2.0/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-25.0.1_62f943b877963bbdf06d25a5cf260f95e2312f79.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 2.0/app/build/intermediates/exploded-aar/com.android.support/transition/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c1b6ab157e8e12cb08b9ee82bb5e3c5d22632eb3">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 2.0/app/build/intermediates/pre-dexed/debug/com.android.support-transition-25.0.1_05bb52784754ab54283111cf9bd18cd656478eb5.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 3.0/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 3.0/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.0.1_9cea500edc518173128528adedcc97879f759333.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 2.0/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 2.0/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_8efe969eac315bf46f324fade9e8f907a3db6743.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version1.0/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version1.0/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.0.1_9f6a382715d7527750f94b9f6d93f01fc828e858.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 6.0/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 6.0/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_e3eec2d693aa06a20e133a612c6468da24ef14f7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 5.0/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 5.0/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.0.1_1a44b41cd11e6ccde8294123cdbbfa2a19d69f65.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 6.0/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 6.0/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.0.1_3a0c211ad0255c57106faab4183c71031beb55f9.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 5.0/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 5.0/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_20a7386d9bd4cc9dd9184df9a5f100c10c513338.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 3.0/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 3.0/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.0.1_b7d89ff9fc203895a31305d8efb305683754c379.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 5.0/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 5.0/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.0.1_af73e0602c4cda6ba7d3db6f318c3398c32b6b80.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version1.0/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f83b00041ecfba705603fec40363416c7de69719">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version1.0/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_0064c9dbfd93871bc1aa3b8d64a789eca029ad6b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 6.0/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 6.0/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_d1b827c8cfa10bd245f403dc186568085452ca23.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 2.0/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 2.0/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.0.1_4f9bf99c01c3167edc2fae96fba11deade2b376d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version1.0/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version1.0/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.0.1_7dd14bf664cd2c3577e28450ed989fcd4e635b33.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 3.0/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 3.0/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.0.1_da521b9caaccb970ee82534f4b164b040d148470.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 3.0/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 3.0/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_e3719e47c37503ecd573992d5f12bd18ad4ce1bb.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 2.0/app/build/intermediates/exploded-aar/com.android.support/design/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="3b236883e0df6002cabb01ce57d00a5b1e5de610">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 2.0/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.0.1_bc2d5d201c425f8fc6dd4b65711becd256546807.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version1.0/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version1.0/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.0.1_6fa199248f65e92caa6cc041ca9ed3703a1a8382.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 5.0/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 5.0/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.0.1_a5ce0cfce2699b2dad1ff23fd39d260aebc7a9d3.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 5.0/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="1108575c7dc7b7f5b378b3290ac90de81a9b8830">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 5.0/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-25.0.1_fd8e6aea67c060c09f775132d9c2966bf50ea3c3.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 3.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 3.0/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.0.1_b17ab0b06de32e07d3881d416851bb4a614fdc2c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version1.0/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version1.0/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.0.1_1f1b3c57f53f54b7a89903e8c1ac59fe6e9eb499.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/.gradle/caches/modules-2/files-2.1/com.j256.ormlite/ormlite-android/4.46/f92cf8ce949fc7ddfac03d91f9bef2d1548cb2dd/ormlite-android-4.46.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f92cf8ce949fc7ddfac03d91f9bef2d1548cb2dd">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 2.0/app/build/intermediates/pre-dexed/debug/ormlite-android-4.46_3f81f4410724f93a1be7e8da88d07427c3011974.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.2/a5f29a7acaddea3f4af307e8cf2d0cc82645fd7d/joda-time-2.2.jar"
+        jar="/Users/yuanding/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.2/a5f29a7acaddea3f4af307e8cf2d0cc82645fd7d/joda-time-2.2.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="a5f29a7acaddea3f4af307e8cf2d0cc82645fd7d">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 2.0/app/build/intermediates/pre-dexed/debug/joda-time-2.2_12ad2adeedaee8427d2f5a1ee41a9096adfe8e3c.jar" />
+        <dex dex="/Users/yuanding/Documents/workspace/CMU-Spring2017/08781/shoppinglist/app/build/intermediates/pre-dexed/debug/joda-time-2.2_c9f18656ff1b94ce256a2bd405551e8520597f51.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 5.0/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar"
+        jar="/Users/yuanding/Documents/workspace/CMU-Spring2017/08781/shoppinglist/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 5.0/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.0.1_83f7928bf083fbba5818c2240e7c47fc1af7cd28.jar" />
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="/Users/yuanding/Documents/workspace/CMU-Spring2017/08781/shoppinglist/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.0.1_62c62a66cb792ae9ea40ab748a8aaa1ef31764ef.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 6.0/app/build/intermediates/exploded-aar/com.davemorrissey.labs/subsampling-scale-image-view/3.5.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="fa7c91f0a2b43f8d9fa001e3d04e2d600f24cc68">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 6.0/app/build/intermediates/pre-dexed/debug/com.davemorrissey.labs-subsampling-scale-image-view-3.5.0_5e04717b57b45847c5bab342e40edc5a6a9be7e1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version1.0/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version1.0/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.0.1_452fdb9eaba971859b6d1ea123d7ffb831ea354b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 2.0/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 2.0/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_068dac75b891e1a0248d2551299eb028438d7f56.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version1.0/app/build/intermediates/exploded-aar/com.davemorrissey.labs/subsampling-scale-image-view/3.5.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="fa7c91f0a2b43f8d9fa001e3d04e2d600f24cc68">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version1.0/app/build/intermediates/pre-dexed/debug/com.davemorrissey.labs-subsampling-scale-image-view-3.5.0_c08f101c14f6e924122d4bd3e0450eb4d6cf0334.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version1.0/app/build/intermediates/exploded-aar/com.android.support/design/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="3b236883e0df6002cabb01ce57d00a5b1e5de610">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version1.0/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.0.1_f1589fe88456a797ff8d80c34e493e2bf80f4047.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 3.0/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 3.0/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.0.1_37646d25a78879b24e6a2e5a63ae53285e671d1f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 3.0/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 3.0/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.0.1_cf8e613a6e227c96e0afc710c770fde5e80b8375.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 2.0/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 2.0/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.0.1_92a299b9dc3c3e9ca1fc924b0818638b5b0d704b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 3.0/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 3.0/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_69c7f1a81ad5f1ff70a0071442061f6584e455f5.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version1.0/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version1.0/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.0.1_5aa6e70a78cf3e23abf85c954a09dd7bae8623fa.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 2.0/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f83b00041ecfba705603fec40363416c7de69719">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 2.0/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_4026ed6fc8007c98878620fbb9da9efafa431e25.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 5.0/app/build/intermediates/exploded-aar/com.davemorrissey.labs/subsampling-scale-image-view/3.5.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="fa7c91f0a2b43f8d9fa001e3d04e2d600f24cc68">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 5.0/app/build/intermediates/pre-dexed/debug/com.davemorrissey.labs-subsampling-scale-image-view-3.5.0_9a3a23b3e2830502040c96ebb0347ae57c358ebc.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 2.0/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 2.0/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.0.1_e929f81f33a67717945765dbfe0baaf182d71c1b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6975da39a7040257bd51d21a231b76c915872d38">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 2.0/app/build/intermediates/pre-dexed/debug/javax.inject-1_87fb01f2fedaf2ec331faffa79bc569d9e89dd58.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 2.0/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/classes.jar"
+        jar="/Users/yuanding/Documents/workspace/CMU-Spring2017/08781/shoppinglist/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 2.0/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.0.1_5b321950d0cfdf12e873108d482a1f6f5e9548d0.jar" />
+        <dex dex="/Users/yuanding/Documents/workspace/CMU-Spring2017/08781/shoppinglist/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.0.1_fc264b2c5c5050c1693af06a6a4b6d967c9a8d4b.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 3.0/app/build/intermediates/exploded-aar/com.android.support/design/25.0.1/jars/classes.jar"
+        jar="/Users/yuanding/.gradle/caches/modules-2/files-2.1/com.j256.ormlite/ormlite-android/4.46/f92cf8ce949fc7ddfac03d91f9bef2d1548cb2dd/ormlite-android-4.46.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="3b236883e0df6002cabb01ce57d00a5b1e5de610">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 3.0/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.0.1_817dd999e1491b1880028e0ebc70eeae9cf980fc.jar" />
+        sha1="f92cf8ce949fc7ddfac03d91f9bef2d1548cb2dd">
+        <dex dex="/Users/yuanding/Documents/workspace/CMU-Spring2017/08781/shoppinglist/app/build/intermediates/pre-dexed/debug/ormlite-android-4.46_f086805bf24d24e43c6bec3eff2db50e0b1ac134.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 5.0/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f83b00041ecfba705603fec40363416c7de69719">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 5.0/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_bb30a703de7272038435c4fa779bc880fa94003d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 5.0/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 5.0/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_fba6b2938135ad5f9e870b642bfd3a62a91b20be.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 6.0/app/build/intermediates/exploded-aar/io.reactivex/rxandroid/1.2.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="927e8ef5711b115b65b2f35495d77352be2b3c09">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 6.0/app/build/intermediates/pre-dexed/debug/io.reactivex-rxandroid-1.2.0_9285ffcc400ad6280806216d1f25f85a373278c7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 2.0/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 2.0/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.0.1_1053d3be679e7e359471cb7967b75cfe11cf3614.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version1.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version1.0/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.0.1_59c71d7333b8b2154580aebc0dc08791172f2ea8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/.gradle/caches/modules-2/files-2.1/com.github.PhilJay/MPAndroidChart/v3.0.0-beta1/54d65d51b5ebec588a19b2384efb6395b5bf5b18/MPAndroidChart-v3.0.0-beta1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="54d65d51b5ebec588a19b2384efb6395b5bf5b18">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 2.0/app/build/intermediates/pre-dexed/debug/MPAndroidChart-v3.0.0-beta1_5299bac84a6eee9c04859f8b97a6f9e529d28adc.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 3.0/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 3.0/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.0.1_24e9f342019b7e88e16c396fc393324848ad0be5.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 5.0/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jar="/Users/yuanding/Documents/workspace/CMU-Spring2017/08781/shoppinglist/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/libs/internal_impl-25.0.1.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 5.0/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_21711444d18a8091aaf1697205e879bf0d9af6ee.jar" />
+        <dex dex="/Users/yuanding/Documents/workspace/CMU-Spring2017/08781/shoppinglist/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_973030d7581d233fc8a5de0455061e39e4bf8e97.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 3.0/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f83b00041ecfba705603fec40363416c7de69719">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 3.0/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_d0758d2415481de307dbdaf377de42efe9b87144.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 6.0/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 6.0/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.0.1_d444805dd979bba791f1c6b9f637cbeeb860bbb4.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 2.0/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 2.0/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.0.1_f6a1ccb2bffb27557e956102192e603add1b7993.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 2.0/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.0.1_1e5d87ff4822bff8e9d4e5f196c6117af371abe6.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version1.0/app/build/intermediates/exploded-aar/com.android.support/transition/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c1b6ab157e8e12cb08b9ee82bb5e3c5d22632eb3">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version1.0/app/build/intermediates/pre-dexed/debug/com.android.support-transition-25.0.1_c4151b9dc9f07e1bfa76a62d38180f0b815f8504.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 3.0/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 3.0/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_21a73542d374adcbf43fb6b93029ab28d41650bb.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 5.0/app/build/intermediates/exploded-aar/io.reactivex/rxandroid/1.2.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="927e8ef5711b115b65b2f35495d77352be2b3c09">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 5.0/app/build/intermediates/pre-dexed/debug/io.reactivex-rxandroid-1.2.0_2b19ec1786bc0c9214fd81584186a742e62ae785.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version1.0/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version1.0/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_4865d885a39ad84a7291663bd54f6e3073cb69e0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version1.0/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version1.0/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_2b87c6c10eb9f84a1394ed1a625ea3a9bfb2986c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version1.0/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="1108575c7dc7b7f5b378b3290ac90de81a9b8830">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version1.0/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-25.0.1_6a7e27393225dfce07b947a8d7dcd4a24feec42d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 3.0/app/build/intermediates/exploded-aar/com.davemorrissey.labs/subsampling-scale-image-view/3.5.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="fa7c91f0a2b43f8d9fa001e3d04e2d600f24cc68">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 3.0/app/build/intermediates/pre-dexed/debug/com.davemorrissey.labs-subsampling-scale-image-view-3.5.0_16860c36ca5269948b9631de30ce7b4acb4b22f1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 6.0/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 6.0/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_3a73f22ecedd829f0d6823ee105bacadac4413b4.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 3.0/app/build/intermediates/exploded-aar/io.reactivex/rxandroid/1.2.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="927e8ef5711b115b65b2f35495d77352be2b3c09">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 3.0/app/build/intermediates/pre-dexed/debug/io.reactivex-rxandroid-1.2.0_e492f2935ac2af70c66ecc09437a440935c059ba.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 6.0/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f83b00041ecfba705603fec40363416c7de69719">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 6.0/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_19e74548c31304e14be0ebb81905639de5229a9c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 6.0/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="1108575c7dc7b7f5b378b3290ac90de81a9b8830">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 6.0/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-25.0.1_c0903f5833d908364c06d2151612ba66b7146dcb.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 3.0/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 3.0/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_1c672ce7f9934f5c3b6d118d66f2c5bcc087186f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version1.0/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version1.0/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_6bcd067d053b6fa080267f1c52c50979a9a1770b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 2.0/app/build/intermediates/exploded-aar/com.davemorrissey.labs/subsampling-scale-image-view/3.5.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="fa7c91f0a2b43f8d9fa001e3d04e2d600f24cc68">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 2.0/app/build/intermediates/pre-dexed/debug/com.davemorrissey.labs-subsampling-scale-image-view-3.5.0_92b4a54aeafb33c1d461f842ba26ed51b25e68bb.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 2.0/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/jars/classes.jar"
+        jar="/Users/yuanding/Documents/workspace/CMU-Spring2017/08781/shoppinglist/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/Di/Documents/CMU/Second_Sem/mobile/privacy-friendly-shopping-list_version 2.0/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.0.1_bf8ee5ec4148c7c6d5aac5d323861118361409aa.jar" />
+        <dex dex="/Users/yuanding/Documents/workspace/CMU-Spring2017/08781/shoppinglist/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.0.1_e8934459dddc16cf351836cf5b6af9c23977556b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yuanding/Documents/workspace/CMU-Spring2017/08781/shoppinglist/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="/Users/yuanding/Documents/workspace/CMU-Spring2017/08781/shoppinglist/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_1e6e0d05a7efc956bb8a1db09173a5c9e39ab970.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yuanding/.gradle/caches/modules-2/files-2.1/com.squareup.dagger/dagger/1.2.5/965d3e29792e7c4193a2906ccadd5ec2fbb6d441/dagger-1.2.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="965d3e29792e7c4193a2906ccadd5ec2fbb6d441">
+        <dex dex="/Users/yuanding/Documents/workspace/CMU-Spring2017/08781/shoppinglist/app/build/intermediates/pre-dexed/debug/dagger-1.2.5_8f4bc524ffbd907d50d9eb59145fc3a83672c289.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yuanding/Documents/workspace/CMU-Spring2017/08781/shoppinglist/app/build/intermediates/exploded-aar/com.davemorrissey.labs/subsampling-scale-image-view/3.5.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fa7c91f0a2b43f8d9fa001e3d04e2d600f24cc68">
+        <dex dex="/Users/yuanding/Documents/workspace/CMU-Spring2017/08781/shoppinglist/app/build/intermediates/pre-dexed/debug/com.davemorrissey.labs-subsampling-scale-image-view-3.5.0_5e088fa715850b6723d2e177c99672b3e5eb3e0c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yuanding/Documents/workspace/CMU-Spring2017/08781/shoppinglist/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="/Users/yuanding/Documents/workspace/CMU-Spring2017/08781/shoppinglist/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.0.1_20fef6ba8d521e5385df5c86c42304b19c39af84.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yuanding/Documents/workspace/CMU-Spring2017/08781/shoppinglist/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="/Users/yuanding/Documents/workspace/CMU-Spring2017/08781/shoppinglist/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_b2e359beaae5712d0c02aeac4b197fdce103fca7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yuanding/Documents/workspace/CMU-Spring2017/08781/shoppinglist/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="/Users/yuanding/Documents/workspace/CMU-Spring2017/08781/shoppinglist/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_24922ebfa7a9f56dd4ee407e4bda2fb23129a18b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yuanding/Documents/workspace/CMU-Spring2017/08781/shoppinglist/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="/Users/yuanding/Documents/workspace/CMU-Spring2017/08781/shoppinglist/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.0.1_1af8d3102ca5614ff65ad83719bd610f02a6ec2d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yuanding/Documents/workspace/CMU-Spring2017/08781/shoppinglist/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
+        <dex dex="/Users/yuanding/Documents/workspace/CMU-Spring2017/08781/shoppinglist/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.0.1_08dc9c769c44387c24c10863d0410a6aec0ae259.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yuanding/Documents/workspace/CMU-Spring2017/08781/shoppinglist/app/build/intermediates/exploded-aar/com.android.support/transition/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c1b6ab157e8e12cb08b9ee82bb5e3c5d22632eb3">
+        <dex dex="/Users/yuanding/Documents/workspace/CMU-Spring2017/08781/shoppinglist/app/build/intermediates/pre-dexed/debug/com.android.support-transition-25.0.1_4b22f06a9e2011ccc0166c3b4e3477562c9cbcdc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yuanding/Documents/workspace/CMU-Spring2017/08781/shoppinglist/app/build/intermediates/exploded-aar/com.android.support/design/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3b236883e0df6002cabb01ce57d00a5b1e5de610">
+        <dex dex="/Users/yuanding/Documents/workspace/CMU-Spring2017/08781/shoppinglist/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.0.1_d5ca4e3fc1158c33b3159a4ea28941b24f3a649b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yuanding/Documents/workspace/CMU-Spring2017/08781/shoppinglist/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="/Users/yuanding/Documents/workspace/CMU-Spring2017/08781/shoppinglist/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.0.1_bfccb4d720828d2fd2bf1a7c38bf77f0b9ae1577.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yuanding/.gradle/caches/modules-2/files-2.1/com.github.PhilJay/MPAndroidChart/v3.0.0-beta1/54d65d51b5ebec588a19b2384efb6395b5bf5b18/MPAndroidChart-v3.0.0-beta1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="54d65d51b5ebec588a19b2384efb6395b5bf5b18">
+        <dex dex="/Users/yuanding/Documents/workspace/CMU-Spring2017/08781/shoppinglist/app/build/intermediates/pre-dexed/debug/MPAndroidChart-v3.0.0-beta1_755a8dcfbfcbf5c338997e650d39069246e6cf98.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yuanding/Documents/workspace/CMU-Spring2017/08781/shoppinglist/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="/Users/yuanding/Documents/workspace/CMU-Spring2017/08781/shoppinglist/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.0.1_effe16fe64c6ef435a22d6212c8e32c2bd1ebf4a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yuanding/Documents/workspace/CMU-Spring2017/08781/shoppinglist/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="/Users/yuanding/Documents/workspace/CMU-Spring2017/08781/shoppinglist/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.0.1_24ec07d865ab9b2801cdfb80ec710d66734b622f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yuanding/.gradle/caches/modules-2/files-2.1/com.j256.ormlite/ormlite-core/4.46/6751df56389e007307f6c68d87811d3bb151a112/ormlite-core-4.46.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6751df56389e007307f6c68d87811d3bb151a112">
+        <dex dex="/Users/yuanding/Documents/workspace/CMU-Spring2017/08781/shoppinglist/app/build/intermediates/pre-dexed/debug/ormlite-core-4.46_f961693f3d244c32e3cbaada1899543b72800155.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yuanding/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/yuanding/Documents/workspace/CMU-Spring2017/08781/shoppinglist/app/build/intermediates/pre-dexed/debug/javax.inject-1_e80084dcc138de520af0b4a349308984fb30805d.jar" />
     </item>
 
 </items>

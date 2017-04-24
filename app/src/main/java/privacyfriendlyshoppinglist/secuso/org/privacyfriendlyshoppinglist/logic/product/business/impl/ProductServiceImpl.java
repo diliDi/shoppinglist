@@ -3,7 +3,6 @@ package privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.logic
 import android.content.Context;
 import android.content.ContextWrapper;
 import privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.R;
-import privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.framework.logger.PFALogger;
 import privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.framework.persistence.DB;
 import privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.framework.utils.StringUtils;
 import privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.logic.product.business.ProductService;
@@ -146,7 +145,6 @@ public class ProductServiceImpl implements ProductService
             }
             catch ( IOException e )
             {
-                PFALogger.error("ProductServiceImpl", "duplicateProductSync", e);
             }
         }
     }
@@ -485,40 +483,6 @@ public class ProductServiceImpl implements ProductService
         return autoCompleteLists;
     }
 
-//    @Override
-//    public Observable<Boolean> deleteInvisibleProductsFromDb(List<String> listIds)
-//    {
-//        Observable<Boolean> observable = Observable.from(productItemDao.getAllEntities())
-//                .filter(entity -> !listIds.contains(String.valueOf(entity.getShoppingList().getId())))
-//                .map(entity -> productItemDao.deleteById(entity.getId()))
-//                .subscribeOn(Schedulers.computation());
-//        return observable;
-//    }
-
-//    @Override
-//    public void sortProducts(List<ProductItem> products, String criteria, boolean ascending)
-//    {
-//        if ( PFAComparators.SORT_BY_NAME.equals(criteria) )
-//        {
-//            Collections.sort(products, ProductComparators.getNameComparator(ascending));
-//        }
-////        else if ( PFAComparators.SORT_BY_QUANTITY.equals(criteria) )
-////        {
-////            Collections.sort(products, ProductComparators.getQuantityCompartor(ascending));
-////        }
-////        else if ( PFAComparators.SORT_BY_STORE.equals(criteria) )
-////        {
-////            Collections.sort(products, ProductComparators.getStoreComparator(ascending));
-////        }
-//        else if ( PFAComparators.SORT_BY_CATEGORY.equals(criteria) )
-//        {
-//            Collections.sort(products, ProductComparators.getCategoryComparator(ascending));
-//        }
-////        else if ( PFAComparators.SORT_BY_PRICE.equals(criteria) )
-////        {
-////            Collections.sort(products, ProductComparators.getPriceComparator(ascending, context));
-////        }
-//    }
 
     private ProductItem getItem(ProductItemEntity entity)
     {

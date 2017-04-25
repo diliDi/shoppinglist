@@ -51,15 +51,6 @@ public class MessageUtils
         toast.show();
     }
 
-
-    private static void setPreferenceToFalse(String preferenceKey, Activity activity)
-    {
-        SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(activity);
-        SharedPreferences.Editor editor = sharedPref.edit();
-        editor.putBoolean(preferenceKey, false);
-        editor.commit();
-    }
-
     public static void showAlertDialog(Context context, int titleResource, int messageResource, Observable action)
     {
         showAlertDialog(context, titleResource, messageResource, null, action);

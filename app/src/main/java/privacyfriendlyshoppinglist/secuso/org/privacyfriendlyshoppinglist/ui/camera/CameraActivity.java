@@ -23,11 +23,6 @@ import rx.schedulers.Schedulers;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Description:
- * Author: Grebiel Jose Ifill Brito
- * Created: 16.08.16 creation date
- */
 public class CameraActivity extends AppCompatActivity implements View.OnClickListener
 {
     public static final String THUMBNAIL_KEY = "thumbnail";

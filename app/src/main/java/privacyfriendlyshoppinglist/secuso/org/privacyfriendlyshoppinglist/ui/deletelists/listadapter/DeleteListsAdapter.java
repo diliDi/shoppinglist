@@ -8,11 +8,6 @@ import privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.ui.del
 
 import java.util.List;
 
-/**
- * Description:
- * Author: Grebiel Jose Ifill Brito
- * Created: 17.03.17 creation date
- */
 public class DeleteListsAdapter extends AbstractAdapter<ListItem, DeleteListsCache, DeleteListsItemViewHolder>
 {
 

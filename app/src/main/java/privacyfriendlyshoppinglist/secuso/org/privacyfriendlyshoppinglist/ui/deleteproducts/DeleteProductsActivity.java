@@ -55,13 +55,11 @@ public class DeleteProductsActivity extends AppCompatActivity
                 .doOnNext(item -> allProducts.add(item))
                 .doOnCompleted(() ->
                 {
-                    // sort according to last sort selection
                     final ListItem[] listItem = new ListItem[ 1 ];
                     shoppingListService.getById(listId)
                             .doOnNext(result -> listItem[ 0 ] = result)
                             .doOnCompleted(() ->
                                     {
-
                                         cache.getDeleteProductsAdapter().setList(allProducts);
                                         cache.getDeleteProductsAdapter().notifyDataSetChanged();
                                     }

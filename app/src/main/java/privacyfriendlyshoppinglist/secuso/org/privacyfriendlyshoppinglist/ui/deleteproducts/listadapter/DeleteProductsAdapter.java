@@ -2,8 +2,8 @@ package privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.ui.de
 
 import android.view.View;
 import privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.R;
-import privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.framework.ui.AbstractAdapter;
-import privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.logic.product.business.domain.ProductItem;
+import privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.framework.AbstractAdapter;
+import privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.logic.product.ProductItem;
 import privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.ui.deleteproducts.DeleteProductsCache;
 
 import java.util.List;

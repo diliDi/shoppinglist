@@ -2,7 +2,7 @@
 # generated on 2016/08/13 03:42:25
 #
 # --table-start--
-dataClass=privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.framework.persistence.AbstractEntity
+dataClass=privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.framework.AbstractEntity
 tableName=abstractentity
 # --table-fields-start--
 # --field-start--
@@ -13,7 +13,7 @@ generatedId=true
 # --table-end--
 #################################
 # --table-start--
-dataClass=privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.logic.shoppingList.persistence.entity.ShoppingListEntity
+dataClass=privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.logic.shoppingList.ShoppingListEntity
 tableName=shoppinglistentity
 # --table-fields-start--
 # --field-start--
@@ -38,7 +38,7 @@ generatedId=true
 # --table-end--
 #################################
 # --table-start--
-dataClass=privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.logic.product.persistence.entity.ProductItemEntity
+dataClass=privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.logic.product.ProductItemEntity
 tableName=productitementity
 # --table-fields-start--
 # --field-start--

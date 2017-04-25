@@ -54,17 +54,15 @@ public class ListItem extends AbstractItem
 
     public String getDetailInfo(Context context)
     {
-        String notesLabel = context.getResources().getString(R.string.list_notes);
-
         StringBuilder sb = new StringBuilder();
 
-        sb.append(StringUtils.NEW_LINE);
+        sb.append("\n");
 
         if ( !StringUtils.isEmpty(this.getNotes()) )
         {
-            sb.append(StringUtils.NEW_LINE);
-            sb.append(notesLabel);
-            sb.append(StringUtils.DETAIL_SEPARATOR);
+            sb.append("\n");
+            sb.append(context.getResources().getString(R.string.list_notes));
+            sb.append(": ");
             sb.append(this.getNotes());
         }
 

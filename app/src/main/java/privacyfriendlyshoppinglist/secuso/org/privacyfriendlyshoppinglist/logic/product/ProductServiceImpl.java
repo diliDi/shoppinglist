@@ -165,7 +165,7 @@ public class ProductServiceImpl implements ProductService
 
     private String getNewName(ListItem listItem)
     {
-        return listItem.getListName() + StringUtils.SPACE + context.getResources().getString(R.string.duplicated_suffix);
+        return listItem.getListName() + " " + context.getResources().getString(R.string.duplicated_suffix);
     }
 
     @Override
@@ -422,7 +422,7 @@ public class ProductServiceImpl implements ProductService
         String category = item.getProductCategory().toLowerCase();
         String store = item.getProductStore().toLowerCase();
         String notes = item.getProductNotes().toLowerCase();
-        String searchableText = name + StringUtils.SPACE + category + StringUtils.SPACE + store + StringUtils.SPACE + notes;
+        String searchableText = name + " " + category + " " + store + " " + notes;
         for ( String searchedText : searchedTexts )
         {
             if ( searchableText.contains(searchedText.toLowerCase()) )
@@ -438,17 +438,17 @@ public class ProductServiceImpl implements ProductService
     {
         StringBuilder sb = new StringBuilder();
         sb
-                .append(StringUtils.DASH)
-                .append(StringUtils.LEFT_BRACE)
+                .append("- ")
+                .append("[ ")
                 .append(item.getQuantity())
-                .append(StringUtils.RIGHT_BRACE)
+                .append(" ] ")
                 .append(item.getProductName());
 
         if ( !StringUtils.isEmpty(item.getProductNotes()) )
         {
             sb
-                    .append(StringUtils.NEW_LINE)
-                    .append(StringUtils.NEW_LINE)
+                    .append("\n")
+                    .append("\n")
                     .append(item.getProductNotes());
         }
 

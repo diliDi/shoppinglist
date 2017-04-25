@@ -11,7 +11,6 @@ public class ProductItem extends AbstractItem
 {
     private String listId;
 
-    // product fields
     private String productName;
 
     private String productCategory;
@@ -159,16 +158,16 @@ public class ProductItem extends AbstractItem
         boolean withStore = false;
         if ( !StringUtils.isEmpty(getProductStore()) )
         {
-            sb.append(storeLabel).append(StringUtils.SPACE).append(getProductStore());
+            sb.append(storeLabel).append(" ").append(getProductStore());
             withStore = true;
         }
         if ( !StringUtils.isEmpty(getProductCategory()) )
         {
             if ( withStore )
             {
-                sb.append(StringUtils.COMMA).append(StringUtils.SPACE);
+                sb.append(",").append(" ");
             }
-            sb.append(categoryLabel).append(StringUtils.SPACE).append(getProductCategory());
+            sb.append(categoryLabel).append(" ").append(getProductCategory());
         }
         return sb.toString();
     }
@@ -187,12 +186,12 @@ public class ProductItem extends AbstractItem
         if ( !StringUtils.isEmpty(quantity) )
         {
             sb.append(quantityDetail);
-            sb.append(StringUtils.NEW_LINE);
+            sb.append("\n");
         }
         if ( !StringUtils.isEmpty(productPrice) )
         {
             sb.append(priceDetail);
-            sb.append(StringUtils.NEW_LINE);
+            sb.append("\n");
         }
         if ( !StringUtils.isEmpty(totalProductPrice) )
         {
@@ -204,22 +203,22 @@ public class ProductItem extends AbstractItem
         boolean notesExists = !StringUtils.isEmpty(productNotes);
         if ( categoryExists || storeExists || notesExists )
         {
-            sb.append(StringUtils.NEW_LINE);
+            sb.append("\n");
         }
 
         if ( categoryExists )
         {
-            sb.append(StringUtils.NEW_LINE);
+            sb.append("\n");
             sb.append(categoryDetail);
         }
         if ( storeExists )
         {
-            sb.append(StringUtils.NEW_LINE);
+            sb.append("\n");
             sb.append(storeDetail);
         }
         if ( notesExists )
         {
-            sb.append(StringUtils.NEW_LINE);
+            sb.append("\n");
             sb.append(notesDetail);
         }
 

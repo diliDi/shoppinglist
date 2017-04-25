@@ -402,7 +402,7 @@ public class ProductDialogFragment extends DialogFragment
                     dialog.getButton(Dialog.BUTTON_POSITIVE).setEnabled(false);
                     dialogCache.getProductPriceInputLayout().setError(getContext().getString(R.string.price_number_too_big));
                 }
-                else if ( number == StringUtils.PARSE_ERROR && !s.toString().equals(StringUtils.EMPTY) )
+                else if ( number == -1.0 && !s.toString().equals("") )
                 {
                     dialog.getButton(Dialog.BUTTON_POSITIVE).setEnabled(false);
                     dialogCache.getProductPriceInputLayout().setError(getContext().getString(R.string.number_format_invalid));

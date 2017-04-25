@@ -23,7 +23,7 @@ public class CancelSearchOnClick implements View.OnClickListener
 
     public static void performClick()
     {
-        cache.getSearchAutoCompleteTextView().setText(StringUtils.EMPTY);
+        cache.getSearchAutoCompleteTextView().setText("");
         cache.getSearchTextInputLayout().setVisibility(View.GONE);
         cache.getCancelSarchButton().setVisibility(View.GONE);
         hideKeyboard();

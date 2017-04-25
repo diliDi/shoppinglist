@@ -17,11 +17,6 @@ import javax.inject.Inject;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Description:
- * Author: Grebiel Jose Ifill Brito
- * Created: 11.06.16 creation date
- */
 public class ShoppingListServiceImpl implements ShoppingListService
 {
 
@@ -88,59 +83,6 @@ public class ShoppingListServiceImpl implements ShoppingListService
         shoppingListConverter.convertEntityToItem(entity, item);
         return item;
     }
-
-//    @Override
-//    public DateTime getReminderDate(ListItem item)
-//    {
-//        DateTime inputTime = getDeadLine(item);
-//
-//        String reminderCount = StringUtils.isEmpty(item.getReminderCount()) ? "0" : item.getReminderCount();
-//        int inputAmount = Integer.parseInt(reminderCount);
-//        int inputChoice = Integer.parseInt(item.getReminderUnit());
-//        DateTime reminderTime = calculateReminderTime(inputTime, inputAmount, inputChoice);
-//        return reminderTime;
-//    }
-//
-//    @Override
-//    public DateTime getDeadLine(ListItem item)
-//    {
-//        String language = context.getResources().getString(R.string.language);
-//        String dateLongPattern = context.getResources().getString(R.string.date_long_pattern);
-//        return DateUtils.getDateFromString(item.getDeadlineDate() + " " + item.getDeadlineTime(), dateLongPattern, language);
-//    }
-
-//    @Override
-//    public int getReminderStatusResource(ListItem item, List<ProductItem> productItems)
-//    {
-//        int reminderStatus = R.drawable.reminder_status_neutral;
-//        DateTime nowDate = new DateTime();
-//        if ( productItems.isEmpty() )
-//        {
-//            reminderStatus = R.drawable.reminder_status_done;
-//        }
-//        else if ( item.getReminderCount() != null )
-//        {
-//            DateTime deadLine = getDeadLine(item);
-//            DateTime reminderDate = getReminderDate(item);
-//            if ( nowDate.isBefore(deadLine) && !nowDate.isBefore(reminderDate) )
-//            {
-//                reminderStatus = R.drawable.reminder_status_triggered;
-//            }
-//            else if ( deadLine.isBefore(nowDate) )
-//            {
-//                reminderStatus = R.drawable.reminder_status_time_over;
-//            }
-//        }
-//        else if ( !StringUtils.isEmpty(item.getDeadlineDate()) )
-//        {
-//            DateTime deadLine = getDeadLine(item);
-//            if ( deadLine.isBefore(nowDate) )
-//            {
-//                reminderStatus = R.drawable.reminder_status_time_over;
-//            }
-//        }
-//        return reminderStatus;
-//    }
 
     @Override
     public ShoppingListEntity getEntityByIdSync(String id)
@@ -251,7 +193,7 @@ public class ShoppingListServiceImpl implements ShoppingListService
         StringBuilder sb = new StringBuilder();
 
         sb.append(listItem.getListName());
-        sb.append(StringUtils.NEW_LINE);
+        sb.append("\n");
 
         if ( productItems != null && !productItems.isEmpty() )
         {
@@ -260,12 +202,12 @@ public class ShoppingListServiceImpl implements ShoppingListService
                     .subscribe(item ->
                     {
                         sb
-                                .append(StringUtils.DASH)
-                                .append(StringUtils.LEFT_BRACE)
+                                .append("- ")
+                                .append("[ ")
                                 .append(item.getQuantity())
-                                .append(StringUtils.RIGHT_BRACE)
+                                .append(" ] ")
                                 .append(item.getProductName())
-                                .append(StringUtils.NEW_LINE);
+                                .append("\n");
                     });
         }
         else
@@ -275,7 +217,7 @@ public class ShoppingListServiceImpl implements ShoppingListService
 
         if ( !StringUtils.isEmpty(listItem.getNotes()) )
         {
-            sb.append(StringUtils.NEW_LINE);
+            sb.append("\n");
             sb.append(listItem.getNotes());
         }
 
@@ -288,26 +230,4 @@ public class ShoppingListServiceImpl implements ShoppingListService
         shoppingListConverter.convertEntityToItem(entity, item);
         return item;
     }
-
-//    private DateTime calculateReminderTime(DateTime date, int inputAmount, int inputChoice)
-//    {
-//        DateTime dateTime = new DateTime();
-//
-//        switch ( inputChoice )
-//        {
-//            case 0:
-//                dateTime = date.minusMinutes(inputAmount);
-//                break;
-//            case 1:
-//                dateTime = date.minusHours(inputAmount);
-//                break;
-//            case 2:
-//                dateTime = date.minusDays(inputAmount);
-//                break;
-//            case 3:
-//                dateTime = date.minusWeeks(inputAmount);
-//        }
-//
-//        return dateTime;
-//    }
 }

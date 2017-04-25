@@ -8,6 +8,7 @@ import privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.framew
 import privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.framework.StringUtils;
 
 import java.io.ByteArrayOutputStream;
+import java.text.DecimalFormat;
 
 public class ProductConverterServiceImpl implements ProductConverterService
 {
@@ -126,7 +127,17 @@ public class ProductConverterServiceImpl implements ProductConverterService
     @Override
     public String getDoubleAsString(Double price)
     {
-        return StringUtils.getDoubleAsString(price, priceFormat2);
+        String numberAsString;
+        try
+        {
+            DecimalFormat df = new DecimalFormat(priceFormat2);
+            numberAsString = df.format(price);
+        }
+        catch ( Exception e )
+        {
+            numberAsString = "";
+        }
+        return numberAsString;
     }
 
     @Override

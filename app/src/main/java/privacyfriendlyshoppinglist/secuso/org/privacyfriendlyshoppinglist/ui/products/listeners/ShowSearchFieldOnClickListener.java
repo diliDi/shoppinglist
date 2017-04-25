@@ -32,7 +32,7 @@ public class ShowSearchFieldOnClickListener implements MenuItem.OnMenuItemClickL
             showKeyboard();
         }
         AutoCompleteTextView searchAutoCompleteTextView = (AutoCompleteTextView) activity.findViewById(R.id.search_input_text);
-        searchAutoCompleteTextView.setText(StringUtils.EMPTY);
+        searchAutoCompleteTextView.setText("");
         return true;
     }
 

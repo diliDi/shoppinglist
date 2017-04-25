@@ -5,35 +5,9 @@ import java.text.ParseException;
 
 public abstract class StringUtils
 {
-
-    public static final String EMPTY = "";
-    public static final String NEW_LINE = "\n";
-    public static final String SPACE = " ";
-    public static final String DETAIL_SEPARATOR = ": ";
-    public static final String DASH = "- ";
-    public static final String COMMA = ",";
-    public static final String LEFT_BRACE = "[ ";
-    public static final String RIGHT_BRACE = " ] ";
-    public static final double PARSE_ERROR = -1.0;
-
     public static boolean isEmpty(String string)
     {
         return string == null || string.isEmpty();
-    }
-
-    public static String getDoubleAsString(double number, String format)
-    {
-        String numberAsString;
-        try
-        {
-            DecimalFormat df = new DecimalFormat(format);
-            numberAsString = df.format(number);
-        }
-        catch ( Exception e )
-        {
-            numberAsString = EMPTY;
-        }
-        return numberAsString;
     }
 
     public static Double getStringAsDouble(String numberAsString, String format)
@@ -47,7 +21,7 @@ public abstract class StringUtils
 
         catch ( ParseException e )
         {
-            return PARSE_ERROR;
+            return -1.0;
         }
     }
 
@@ -73,7 +47,7 @@ public abstract class StringUtils
                 }
                 catch ( Exception e3 )
                 {
-                    stringAsDouble = PARSE_ERROR;
+                    stringAsDouble = -1.0;
                 }
             }
         }

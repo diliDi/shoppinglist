@@ -385,35 +385,14 @@ public class ProductServiceImpl implements ProductService
             totalItem.setEqualsZero(true);
         }
 
-//        NumberScale numberScale = getNumberScale(totalAmount);
-//        totalAmount = totalAmount / numberScale.getValue(context);
-//        checkedAmount = checkedAmount / numberScale.getValue(context);
-
         String totalAmountString = converterService.getDoubleAsString(totalAmount);
         String checkedAmountString = converterService.getDoubleAsString(checkedAmount);
-//        StringUtils.SPACE + numberScale.getAbbreviation(context)
-//        + StringUtils.SPACE + numberScale.getAbbreviation(context)
         totalItem.setTotalAmount(totalAmountString);
         totalItem.setCheckedAmount(checkedAmountString);
         totalItem.setNrProducts(nrProducts);
 
         return totalItem;
     }
-
-//    private NumberScale getNumberScale(double value)
-//    {
-//        NumberScale numberScale = NumberScale.NO_SCALE;
-//        if ( value > NumberScale.MILLION.getValue(context) )
-//        {
-//            numberScale = NumberScale.MILLION;
-//        }
-//        // use kilo scale if value greatuer than 100,000.00
-//        else if ( value > NumberScale.KILO.getValue(context) * 100 )
-//        {
-//            numberScale = NumberScale.KILO;
-//        }
-//        return numberScale;
-//    }
 
     @Override
     public Boolean isSearched(String[] searchedTexts, ProductItem item)

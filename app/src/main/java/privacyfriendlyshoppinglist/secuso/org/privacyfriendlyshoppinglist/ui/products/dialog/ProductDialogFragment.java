@@ -29,7 +29,6 @@ import privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.framew
 import privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.logic.product.ProductService;
 import privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.logic.product.AutoCompleteLists;
 import privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.logic.product.ProductItem;
-//import privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.logic.statistics.business.StatisticsService;
 import privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.ui.camera.CameraActivity;
 import privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.ui.products.PhotoPreviewActivity;
 import privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.ui.products.ProductActivityCache;
@@ -324,10 +323,6 @@ public class ProductDialogFragment extends DialogFragment
                 {
                     saveConfirmed = true;
                     saveUserInput(productName);
-//                    if ( item.isChecked() && cache.getStatisticsEnabled() )
-//                    {
-//                        statisticsService.saveRecord(item).subscribe();
-//                    }
                     productService.saveOrUpdate(item, cache.getListId())
                             .doOnCompleted(() ->
                             {

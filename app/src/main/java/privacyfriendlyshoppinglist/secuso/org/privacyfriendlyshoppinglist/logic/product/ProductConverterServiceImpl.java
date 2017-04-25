@@ -12,9 +12,6 @@ import java.text.DecimalFormat;
 
 public class ProductConverterServiceImpl implements ProductConverterService
 {
-    private static final int DEFAULT_QUANTITY = 1;
-    private static final double DEFAULT_PRICE = 0.0;
-    private static final int BITMAP_QUALITY = 100;
     private String priceFormat0;
     private String priceFormat1;
     private String priceFormat2;
@@ -45,7 +42,7 @@ public class ProductConverterServiceImpl implements ProductConverterService
         }
         else
         {
-            entity.setQuantity(DEFAULT_QUANTITY);
+            entity.setQuantity(1);
         }
 
         entity.setNotes(item.getProductNotes());
@@ -59,7 +56,7 @@ public class ProductConverterServiceImpl implements ProductConverterService
         }
         else
         {
-            entity.setPrice(DEFAULT_PRICE);
+            entity.setPrice(0.0);
         }
 
         entity.setCategory(item.getProductCategory());
@@ -68,7 +65,7 @@ public class ProductConverterServiceImpl implements ProductConverterService
         if ( item.getThumbnailBitmap() != null && !item.isDefaultImage() )
         {
             ByteArrayOutputStream stream = new ByteArrayOutputStream();
-            item.getThumbnailBitmap().compress(Bitmap.CompressFormat.PNG, BITMAP_QUALITY, stream);
+            item.getThumbnailBitmap().compress(Bitmap.CompressFormat.PNG, 100, stream);
             entity.setImageBytes(stream.toByteArray());
         }
         else

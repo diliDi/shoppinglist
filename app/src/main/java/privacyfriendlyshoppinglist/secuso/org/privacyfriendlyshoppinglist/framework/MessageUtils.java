@@ -4,8 +4,6 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.content.SharedPreferences;
-import android.preference.PreferenceManager;
 import android.support.v7.app.AlertDialog;
 import android.view.Gravity;
 import android.widget.Toast;
@@ -15,8 +13,6 @@ import rx.Observable;
 public class MessageUtils
 {
     private static Toast toast;
-
-    private static int NOTHING = -1;
 
     public static void shareText(Context context, String text)
     {
@@ -59,12 +55,12 @@ public class MessageUtils
     public static void showAlertDialog(Context context, int titleResource, int messageResource, String customText, Observable action)
     {
         AlertDialog.Builder dialogBuilder = new AlertDialog.Builder(context, R.style.AlertDialogColourful);
-        if ( titleResource != NOTHING )
+        if ( titleResource != -1 )
         {
             String title = context.getResources().getString(titleResource);
             dialogBuilder.setTitle(title);
         }
-        if ( messageResource != NOTHING )
+        if ( messageResource != -1 )
         {
             String message;
             if ( customText == null )

@@ -5,10 +5,6 @@ import privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.R;
 
 public class TotalItem
 {
-    private static final String DETAIL_SEPARATOR = ": ";
-    private static final String NEW_LINE = "\n";
-    private static final String SPACE = " ";
-
     private String totalAmount;
     private String checkedAmount;
     private boolean equalsZero;
@@ -56,21 +52,18 @@ public class TotalItem
 
     public String getInfo(String currency, Context context)
     {
-        String nrItemsLabel = context.getResources().getString(R.string.nr_items);
-        String totalAmountLabel = context.getResources().getString(R.string.total_list_amount);
-
         StringBuilder sb = new StringBuilder();
-        sb.append(nrItemsLabel);
-        sb.append(DETAIL_SEPARATOR);
+        sb.append(context.getResources().getString(R.string.nr_items));
+        sb.append(": ");
         sb.append(this.getNrProducts());
-        sb.append(NEW_LINE);
-        sb.append(totalAmountLabel);
-        sb.append(DETAIL_SEPARATOR);
+        sb.append("\n");
+        sb.append(context.getResources().getString(R.string.total_list_amount));
+        sb.append(": ");
         sb.append(this.getTotalAmount());
-        sb.append(SPACE);
+        sb.append(" ");
         sb.append(currency);
-        sb.append(NEW_LINE);
-        sb.append(NEW_LINE);
+        sb.append("\n");
+        sb.append("\n");
 
         return sb.toString();
     }

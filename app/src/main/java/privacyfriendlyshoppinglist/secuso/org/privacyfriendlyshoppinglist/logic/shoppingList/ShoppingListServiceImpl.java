@@ -3,12 +3,9 @@ package privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.logic
 import android.content.Context;
 
 import privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.R;
-//import privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.framework.comparators.PFAComparators;
 import privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.framework.DB;
-//import privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.framework.utils.DateUtils;
 import privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.framework.StringUtils;
 import privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.logic.product.ProductItem;
-//import privacyfriendlyshoppinglist.secuso.org.privacyfriendlyshoppinglist.logic.shoppingList.business.impl.comparators.ListsComparators;
 import rx.Observable;
 import rx.android.schedulers.AndroidSchedulers;
 import rx.schedulers.Schedulers;
@@ -172,20 +169,6 @@ public class ShoppingListServiceImpl implements ShoppingListService
         shoppingListItems = nonSelectedItems;
         return shoppingListItems;
     }
-
-//    @Override
-//    public void sortList(List<ListItem> lists, String criteria, boolean ascending)
-//    {
-//        if ( PFAComparators.SORT_BY_NAME.equals(criteria) )
-//        {
-//            Collections.sort(lists, ListsComparators.getNameComparator(ascending));
-//        }
-//        else if ( PFAComparators.SORT_BY_PRIORITY.equals(criteria) )
-//        {
-//            Collections.sort(lists, ListsComparators.getPriorityComparator(ascending));
-//        }
-//
-//    }
 
     @Override
     public String getShareableText(ListItem listItem, List<ProductItem> productItems)
